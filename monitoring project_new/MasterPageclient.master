@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageclient.master.cs" Inherits="MasterPageclient" %>
+
+<html>
+<head id="Head1" runat="server">
+    <script src="Scripts/apprise-1.5.full.js" type="text/javascript"></script>
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <link href="apprise.css" rel="stylesheet" type="text/css" />
+    <link href="sstyle.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title></title>
+    </head>
+<body>
+   <form id="form1" runat="server">
+        <div id="top">
+       
+        <table style="width:90%;">
+            <tr>
+                <td>
+                   
+      <asp:Image ID="Image2" runat="server" Height="66px" 
+          ImageUrl="~/image/3.jpg" Width="282px" />
+                   
+                </td>
+                <td style="text-align:right;color:#666666;font-weight:bold;">
+                 Welcome : 
+                <asp:Label ID="lbUser" runat="server" Text="Label"></asp:Label>
+                | 
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Logout.aspx">Log out</asp:HyperLink>
+                </td>
+            </tr>
+            
+        </table>
+            
+             </div>
+        <div id="wrapper">
+    <div id="Div1">
+		
+       
+            <ul id="appleNav" >
+                 <li></li>
+                  <li><a href="Default.aspx" title="main">Main</a></li>
+                <li><a href="meeting.aspx" title="Meeting">Meetings</a></li>
+                <li><a href="SendMessage.aspx" title="Send Message">Send Message</a></li>
+                <li><a href="Inbox.aspx" title="Inbox">Inbox</a></li>
+                <li><a href="History.aspx" title="History">History</a></li>
+                <li><a href="EditProfile.aspx" title="Profile">Profile</a></li>
+                <li><a href="ChangePassword.aspx">ChangePassword</a></li>
+              <li></li>
+               
+            </ul>
+        
+		
+    </div>
+</div>
+         
+       
+            <div id="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        
+    </form>
+</body>
+</html>
+

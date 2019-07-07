@@ -1,0 +1,178 @@
+body
+{
+    
+	font-family:calibri;
+	font-size:14px;
+margin:0px;
+	background-color:WhiteSmoke;
+}
+
+
+#main
+{
+	width:75%;
+	margin:0px auto;
+	border-left:1px solid #004080;
+	border-right:1px solid #004080;
+	min-height:560px;
+}
+#menu
+{
+	margin:0px;
+	background-color:#00A2EF;
+	height:40px;
+	color:#fff;
+	text-align:center;
+}
+#content
+{
+   
+    margin:1cm 1cm 1cm 1cm;
+	width:100%;
+	padding:25px;
+	min-height:520px;
+	
+}
+#footer
+{
+
+	background-color:#004080;
+	height:25px;
+	text-align:center;
+	color:#fff;
+}
+
+
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+#top a
+{
+    color:#666666
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #4b6c9e;
+    width: 100%;
+}
+
+.header h1
+{
+    font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 20px;
+    color: #fff;
+    border: none;
+    line-height: 2em;
+    font-size: 2em;
+}
+
+#top h1
+{
+    color:#fff;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 4px 8px 4px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+select.textEntry 
+{
+    
+    width: 320px;
+    border: 1px solid #ccc;
+}
+input.passwordEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 90%;
+}
