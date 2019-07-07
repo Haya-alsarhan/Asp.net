@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This repository hosts the source code for the 3Box system to help team stay organized.<br>
+This repository hosts the source code for the 3Box system that's help team to stay organized.<br>
 
 
 ### Technical Stack
